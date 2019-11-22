@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    
+}
+body{
+    max-width:1782px;
+    margin:0 auto;
+       
+}
+.clicked_menu{
+    display: none;
+}
+h1{
+    font-size: 20px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    height: 169px;
+    align-items: center;
+    
+    
+    
+}
+header ul{
+    width: 234px;
+    display:flex;
+    justify-content: space-between;
+    margin-right:79px;
+    
+   
+}
+header img {
+  margin-left:59px;
+}
+.a{
+    color: #181818;
+    transition:300ms color ease;
+    margin:0px 0px 45px;
+}
+.a:hover{
+  color:black;
+  transition : 300ms color ease;
+   
+}
+.cool-link::after {
+  content:'';
+  display:block;
+  width:0;
+  height:2px;
+  background:black;
+  transition:width .3s;
+
+}
+.cool-link:hover::after {
+  width:50%;
+  transition:width .3s;
+}
+
+
+.content {
+  height: 100%;
+  margin: 100px auto 200px;
+  display: flex;
+  max-width: 90%;  
+  justify-content: space-between;
+}
+.content aside {
+  margin: 40px 0 0 30px;
+}
+.content aside {
+  color: #4d4d4d;
+}
+.content aside h1 {
+  font-size: 48px;
+  font-weight: normal;
+  width: 683px;
+}
+.content aside h3 {
+  font-weight: normal;
+  font-size: 2em;
+  margin: 40px 0 20px 0;
+}
+.content aside p {
+  margin: 1em 0;
+  max-width: 420px;
+  font-size: 0.9em;
+}
+.content aside button {
+  width: 180px;
+  height: 72px;
+  border-radius: 5px;
+  
+}
+.content aside .button-container {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color:#f2f2f2;
+  height: 343px;
+  align-items: center;
+  
+}
+
+  footer .container {
+    padding: 40px;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+   
+  
+  
+}
+footer section {
+  width: 992px;
+  height: 179px;
+}
+footer section img {
+  width: 44px;
+  height: 44px;
+}
+footer section aside {
+  width: 233px;
+  height: 81px;
+  color:#4d4d4d;
+  font-size: 11px;
+  margin-left: 24px;
+  
+}
+footer section:first-child {
+  display: flex;
+}
+footer section ul {
+  color:#4d4d4d;
+  font-size: 11px;
+  justify-content: space-between;
+}
+
+/* footer section: div {
+  display: flex;
+} */
+/* footer section ul, footer section aside {
+  color:black;
+  font-size: 12px;
+ 
+}
+footer section ul li + li {
+  margin-top: 10px;
+}
+footer section address {
+  font-style: normal;
+  font-size: .12px;
+}
+footer section:first-child {
+  display: flex;
+}
+
+footer section:first-child aside {
+  font-size: 12px;
+  margin-left: 24px;
+}
+footer div {
+  display: flex;
+  font-size: 12px;
+  
+} */
