@@ -1,12 +1,27 @@
+@font-face{
+  font-family:helvetica_neue_bold;
+  src:url(../fonts/helvetica_neue_bold.ttf);
+}
+@font-face{
+  font-family:helvetica_neue_light;
+  src:url(../fonts/helvetica_neue_light.ttf);
+}
+@font-face{
+  font-family:helvetica_neue_roman;
+  src:url(../fonts/helvetica_neue_roman.ttf);
+}
+
+
 *{
     margin:0;
     padding:0;
     text-decoration:none;
     list-style:none;
     
+    
 }
 body{
-    max-width:1782px;
+    max-width:1982px;
     margin:0 auto;
        
 }
@@ -69,103 +84,168 @@ header img {
   justify-content: space-between;
 }
 .content aside {
-  margin: 40px 0 0 30px;
+  margin: 113px 0 0 30px;
 }
 .content aside {
   color: #4d4d4d;
 }
 .content aside h1 {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: normal;
-  width: 683px;
+  width: 698px;
 }
 .content aside h3 {
   font-weight: normal;
-  font-size: 2em;
+  font-size: 60px;
   margin: 40px 0 20px 0;
+  
 }
 .content aside p {
   margin: 1em 0;
-  max-width: 420px;
-  font-size: 0.9em;
+  max-width: 552px;
+  font-size: 18px;
 }
 .content aside button {
   width: 180px;
   height: 72px;
   border-radius: 5px;
+  font-size: 18px;
   
 }
 .content aside .button-container {
   display: flex;
   align-items: center;
+ 
 }
+.content aside .button-container .button1 {
+  width: 180px;
+    height: 72px;
+    margin-right: 48px;
+}
+.content aside .button-container .button2 {
+width:30.7px;
 
+}
 footer {
   background-color:#f2f2f2;
   height: 343px;
   align-items: center;
+  width:1920px;
+  
+}
+footer .container {
+  padding: 40px;
+  max-width: 1520px;
+  display: flex;
+  justify-content: space-between;
+
+} 
+
+
+footer section {
+width: 992px;
+height: 179px;
+}
+
+footer img {
+  width: 87px;
+  height: 87px;
+  margin-top: 61px;
+  margin-left: 200px;
+}
+
+footer section aside {
+  width: 353px;
+  height: 128px;
+  color:#4d4d4d;
+  font-size: 16px;
+  margin-top:76px;
+  margin-left: 40px;
   
 }
 
-  footer .container {
-    padding: 40px;
-    max-width: 1920px;
-    display: flex;
-    justify-content: space-between;
-   
-  
-  
-}
-footer section {
-  width: 992px;
-  height: 179px;
-}
-footer section img {
-  width: 44px;
-  height: 44px;
-}
-footer section aside {
-  width: 233px;
-  height: 81px;
-  color:#4d4d4d;
-  font-size: 11px;
-  margin-left: 24px;
-  
-}
+
 footer section:first-child {
   display: flex;
 }
 footer section ul {
   color:#4d4d4d;
-  font-size: 11px;
+  font-size: 17px;
+  justify-content: space-between;
+  width:235px;
+  height: 126px;
+  margin-top: 73px;
+  margin-left: 250px;
+  margin-bottom: 144px;
+} 
+.footer-icones {
+  width: 1520px;
+  display: flex;
+  justify-content: flex-end;
+ 
+  
+}
+.footer-span{
+  display: flex;
+  width: 129px;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+hr {
+  width: 1520px;
+    margin-left: 200.5px;
+    margin-right: 199.5px;
+    color: #4D4D4D;
+    
+    
+}
+
+
+ /* landing */
+
+.b-content {
+  height: 100%;
+  /* margin: 100px auto 200px; */
+  display: flex;
+  max-width: 90%;  
   justify-content: space-between;
 }
-
-/* footer section: div {
+.b-content aside {
+  /* margin: 163px 37 0 106px; */
   display: flex;
-} */
-/* footer section ul, footer section aside {
-  color:black;
-  font-size: 12px;
+}
+.b-content aside {
+  color: #4d4d4d;
+}
+.b-content aside h1 {
+  font-size: 48px;
+  font-weight: normal;
+  width: 289px;
+  display: flex;
+}
+  
+.b-content aside p {
+  display: flex;
+  margin-top: 249;
+  width: 382px;
+  font-size: 20px;
+}
+.content aside button {
+  width: 180px;
+  height: 72px;
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+.content aside .button-container {
+  display: flex;
+  align-items: center;
  
 }
-footer section ul li + li {
-  margin-top: 10px;
+.content aside .button-container .button1 {
+  width: 180px;
+    height: 72px;
+    margin-right: 48px;
 }
-footer section address {
-  font-style: normal;
-  font-size: .12px;
-}
-footer section:first-child {
-  display: flex;
-}
-
-footer section:first-child aside {
-  font-size: 12px;
-  margin-left: 24px;
-}
-footer div {
-  display: flex;
-  font-size: 12px;
-  
-} */
+.content aside .button-container .button2 {
+width:30.7px;
